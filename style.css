@@ -1,0 +1,49 @@
+.weight-seven{
+    font-family: 'Outfit', sans-serif;
+    font-weight:700; 
+    font-size: 30px; 
+    color: hsl(218, 44%, 22%); 
+}
+
+
+.weight-four{
+    font-family: 'Outfit', sans-serif; 
+    font-weight:400; 
+    font-size: 30px; 
+    color: hsl(220, 15%, 55%); 
+}
+
+.biggest-container{
+    display: flex; 
+    justify-content: center; 
+}
+
+.main-container{
+    border: medium solid white; 
+    border-width: 20px; 
+    border-radius: 25px; 
+
+    position: relative; 
+    bottom: -150px; 
+
+    display: flex; 
+    flex-direction:column; 
+    width: 400px; 
+    text-align:center; 
+    background-color: white; 
+}
+
+.qr-image{
+    border-radius:25px; 
+    
+}
+
+html {
+    background-color: hsl(212, 45%, 89%)
+}
+
+.attribution{ 
+    text-align:center; 
+    position: relative; 
+    bottom: -370px; 
+}
