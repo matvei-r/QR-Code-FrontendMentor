@@ -14,27 +14,24 @@
 }
 
 .biggest-container{
+    min-height: 100vh; 
     display: flex; 
     justify-content: center; 
+    align-items: center; 
 }
 
 .qr-container{
-    border: medium solid white; 
-    border-width: 20px; 
+    padding: 15px;
     border-radius: 25px; 
 
-    position: relative; 
-    bottom: -150px; 
-
-    display: flex; 
-    flex-direction:column; 
-    width: 400px; 
+    max-width: 400px; 
+ 
     text-align:center; 
     background-color: white; 
 }
 
 .qr-image{
-    border-radius:25px; 
+    width: 100%
     
 }
 
@@ -45,5 +42,5 @@ html {
 .attribution{ 
     text-align:center; 
     position: relative; 
-    bottom: -370px; 
+
 }
